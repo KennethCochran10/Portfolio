@@ -1,0 +1,210 @@
+body{
+    background-image: url(https://cdn.wallpapersafari.com/59/5/1lRzo9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:transparent;
+    color:white;
+}
+
+.Nametitle{
+    font-size: 1.5rem;
+    margin: .5rem;
+
+}
+
+.navbarlinks ul {
+   float: right;
+   object-fit: cover;
+   display: flex; 
+   
+}
+
+.navbarlinks li{
+    list-style: none;
+}
+
+.navbarlinks li a {
+    text-decoration: none;
+    color:white;
+    padding: 1rem;
+    display: block
+}
+
+.navbarlinks li:hover{
+    background-color: gray;
+}
+
+.toggle{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px
+}
+@media (max-width: 600px) {
+    .toggle{
+        display:flex;
+    }
+    .navbarlinks{
+        
+        width: 100%;
+    }
+
+     .navbar{
+    flex-direction: column;
+    align-items: flex-start;
+    }
+
+    .navbarlinks ul{
+     width: 100%;
+     flex-direction: column;
+    }
+
+    .navbarlinks li{
+     text-align: center;
+    }
+
+    .navbarlinks li a {
+        padding: 5rem 1rem;
+    }
+}
+
+.text{
+    color: white;
+}
+.projects{
+    color: white;
+}
+.projects li a{
+    color: white;
+    
+}
+.projects li:hover{
+    color: blue;
+}
+
+h1{
+    color: white;
+    object-fit: fill;
+}
+
+#Links{
+    margin-top: 30px;
+    float:right;
+    color: white;
+    border: dashed white;
+    width: fit-content;
+    position: relative;
+}
+
+.pic{
+    padding-right: 0px;
+    float: right;
+    object-fit: fill;
+}
+
+.pic2{
+    padding-right: 0px;
+    float: right;
+    object-fit: fill;
+    height: 40px;
+    width: 50px;
+   }
+
+#button1{
+    color: #ffffff;
+}
+
+#button1 a:hover{
+    transform: .2s;
+    background: #ffffff;
+    box-shadow: 0 0 10px #ffffff, 0 0 40px #ffffff, 0 0 80px #ffffff
+}
+
+#button2{
+    color: #ffffff;
+}
+
+#button2 a:hover{
+    transform: .2s;
+    background: #ffffff;
+    box-shadow: 0 0 10px #ffffff, 0 0 40px #ffffff, 0 0 80px #ffffff
+}
+
+#button3{
+    color: #051eff;
+}
+
+#button3 a:hover{
+    transform: .2s;
+    background: #051eff;
+    box-shadow: 0 0 10px #051eff, 0 0 40px #051eff, 0 0 80px #051eff
+}
+
+#Aboutme{
+    color: white;
+}
+
+.table-dark{
+    border: 10px;
+
+}
+
+.table>:not(caption)>*>*{
+    background-color: transparent;
+}
+
+.table{
+    width: 50%;
+}
+
+.wow{
+    margin-top: 30px;
+    color: white;
+}
+    
+.ref{
+    color: white;
+    margin-top: 100px;
+}
+.accordion-body{
+    color: white;
+    background-color: black;
+}
+.accordion-button{
+    background-color: black;
+    color: white;
+}
+
+
+
+.carousel-inner{
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    
+}
+
+
+
+
