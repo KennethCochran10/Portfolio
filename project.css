@@ -190,11 +190,13 @@ h1{
 .accordion-body{
     color: white;
     background-color: black;
+    
 }
 .accordion-button{
     background-color: black;
     color: white;
 }
+
 
 
 
@@ -220,4 +222,44 @@ h1{
 #fs-frm-inputs{
     color: white;
 }
+
+.thumb {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 7px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 150px; /* Set a small width */
+    margin: 40px;
+    display: inline;
+    
+    
+  }
+  
+  /* Add a hover effect (blue shadow) */
+  .thumb:hover {
+    position:relative;
+    top:-25px;
+    bottom: -25px;
+    height:auto;
+    z-index:999;
+    width: 250px;
+    box-shadow: 0 0 2px 1px rgb(255, 255, 255);
+  }
+
+
+.projects1{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    
+}
+
+.projects2{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+
+
+  
 
