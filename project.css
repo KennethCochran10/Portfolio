@@ -7,6 +7,12 @@ body{
     padding: 0;
 }
 
+.projects1 a{
+   text-decoration: none;
+}
+.projects2 a{
+    text-decoration: none;
+ }
 .navbar{
     
     display: flex;
@@ -190,6 +196,8 @@ h1{
 .accordion{
     width: fit-content;
     position: relative;
+    padding: 50px;
+    
 }
 .accordion-body{
     color: white;
